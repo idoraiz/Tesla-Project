@@ -1,0 +1,73 @@
+
+:root {
+  --white: #ffffff;
+  
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../Gotham-Font/GothamBold.ttf');
+}
+
+@font-face {
+  font-family: Tesla;
+  src: url('../Tesla-Font/TESLA.ttf');
+}
+
+main {
+  background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop') no-repeat center center/cover;
+  height: 100vh;
+  font-family: Gotham;
+}
+
+
+header {
+  display: flex;
+  justify-content:space-between;
+  padding: 18px;
+  
+}
+
+.header-btns a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+.main-navbar a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.logo {
+  font-family: Tesla;
+  font-size: 20px;
+  margin-left: 20px;
+  color: var(--white);
+}
+
+
+.main-heading {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 60px;
+  color: var(--white);
+  
+}
+
+.side-navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+ 
+ 
+}
+
+.side-navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+
+}
