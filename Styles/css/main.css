@@ -1,0 +1,200 @@
+#main {
+  background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop")
+    no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.main-navbar {
+  margin-left: 200px;
+}
+
+.header-btns a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.header-btns a:hover {
+  background-color: gray;
+}
+
+.main-navbar a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.main-navbar a:hover {
+  background-color: gray;
+}
+
+.logo {
+  font-family: Tesla;
+  letter-spacing: 15px;
+  color: var(--white);
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 60px;
+  color: var(--white);
+}
+
+.side-navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  line-height: 1.5rem;
+  width: 100px;
+  top: 30%;
+}
+
+.side-navbar a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 3px 0;
+  flex-wrap: nowrap;
+}
+
+.side-navbar .line {
+  background-color: gray;
+  width: 1px;
+  height: 25px;
+}
+
+.side-navbar .line:hover + .navbar-text {
+  display: block;
+}
+
+.side-navbar .line:hover {
+  width: 3px;
+  background-color: #efefef;
+}
+
+.side-navbar .navbar-text {
+  display: none;
+  text-decoration: none;
+  color: #efefef;
+  font-weight: 700;
+  margin-left: 7px;
+}
+
+.side-navbar .navbar-text:hover {
+  color: var(--white);
+}
+
+.main-footer {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: center;
+  color: var(--white);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.icon {
+  padding: 0 50px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
+.icon-container p {
+  margin-top: 8px;
+}
+
+.btn {
+  font-size: small;
+  border-radius: 20px;
+  border: 3px solid white;
+  padding: 10px 60px;
+  background-color: transparent;
+  color: var(--white);
+  transition: background 0.5s;
+  height: 40px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border-style: solid;
+  border-color: var(--white);
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 1ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+}
+
+.down-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-btn {
+  background-color: var(--white);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: black;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+}
+
+.chat-btn i {
+  margin-top: 12px;
+}
+
+.chat-btn :hover {
+  cursor: pointer;
+}

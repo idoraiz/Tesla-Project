@@ -1,0 +1,69 @@
+:root {
+  --white: #ffffff;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Gotham SSm;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Gotham SSm;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Gotham SSm;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Bold_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Gotham SSm;
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Gotham SSm;
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: Tesla;
+  src: url("../../Tesla-Font/TESLA.ttf");
+}
+
+body {
+  display: inline-block;
+  font-family: Gotham SSm;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.chat-btn,
+.side-navbar {
+  z-index: 100;
+}

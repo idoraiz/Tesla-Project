@@ -1,0 +1,139 @@
+#saftey {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.saftey-pic img {
+  width: 100%;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 400px;
+  margin: 40px 0;
+}
+
+.saftey-text-headline {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  line-height: 0.5;
+  height: 100px;
+  flex-grow: 1;
+}
+
+.saftey-text-content {
+  line-height: 1.6;
+  flex-grow: 10;
+  margin-top: -50px;
+}
+
+.right-column-btns {
+  display: flex;
+}
+
+.saftey-btn {
+  font-size: small;
+  border-radius: 20px;
+  border: 3px solid black;
+  padding: 10px 60px;
+  background-color: transparent;
+  color: var(--black);
+  transition: background 0.5s;
+  height: 40px;
+}
+
+.saftey-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.plus-btn {
+  border-radius: 50%;
+  width: 40px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.learn-more-btn {
+  display: flex;
+  border: none;
+  background: none;
+}
+
+.learn-more-btn p {
+  margin: 10px;
+}
+
+.learn-more-btn:hover button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  #saftey {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .saftey-pic {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+  }
+
+  .saftey-pic img {
+    height: 100%;
+    width: auto;
+  }
+
+  .right-column {
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content:center; */
+    /* align-content:flex-start; */
+    /* min-width: 400px; */
+    /* margin: 40px 0; */
+    align-items: center;
+    height: 300px;
+  }
+
+  .saftey-text {
+    display: flex;
+  }
+
+  .saftey-text-headline {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    line-height: 0.1;
+    height: 100px;
+    width: 40%;
+    order: -2;
+  }
+
+  .saftey-text-content {
+    line-height: 1.6;
+    width: 40%;
+    margin: 0;
+    font-size: 14px;
+    /* height: 100px; */
+    /* width: 700px; */
+  }
+
+  .right-column-btns {
+    /* width: 30%; */
+    height: 200px;
+    order: -1;
+  }
+}

@@ -1,0 +1,63 @@
+#performance {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.performance-background {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop)
+    no-repeat center center/cover;
+  height: 70%;
+}
+
+footer .footer-content .icon-info .icon-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.performance-footer {
+  position: absolute;
+  bottom: 65px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: center;
+  color: var(--white);
+}
+
+.performance-text {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.performance-text-left {
+  margin: 0 40px;
+  min-width: 400px;
+  line-height: 0.2;
+}
+
+.performance-text-right {
+  margin: 0 40px;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 500px;
+}
+
+.performance-text-btns {
+  display: flex;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .performance-text-left {
+    line-height: 1;
+  }
+}
